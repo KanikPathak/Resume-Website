@@ -2,6 +2,9 @@
 
 Welcome to my Vite React Resume Portfolio! This project showcases my skills, experience, and projects as a web developer and AI enthusiast. It’s built using Vite for fast builds and React for a dynamic user experience.
 
+YOU CAN ALSO SEE THIS AT
+https://kanikpathak.vercel.app/
+
 ## Features
 
 - **Responsive Design:** The portfolio is fully responsive and looks great on all devices.
