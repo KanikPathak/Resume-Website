@@ -33,7 +33,7 @@ const Header = ({ theme, toggleTheme }) => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="/" className="text-2xl font-bold text-teal-500 hover:text-teal-600 transition-colors duration-300">
-            Kanik
+            Kanik.
           </a>
           <div className="hidden md:flex items-center space-x-6">
             {['About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
