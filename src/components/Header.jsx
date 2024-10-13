@@ -50,7 +50,7 @@ const Header = ({ theme, toggleTheme }) => {
               className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-full font-semibold transition-colors duration-300 flex items-center"
             >
               <Mail className="mr-2" size={18} />
-              Hire Me
+              Hire Me Now!
             </a>
             <button
               onClick={toggleTheme}
