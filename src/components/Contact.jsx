@@ -28,27 +28,20 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form className="space-y-4">
-          <input
-            type="text"
-            placeholder="Your Name"
-            className="w-full p-2 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 text-gray-900 dark:text-gray-100"
-            required
-          />
-          <input
-            type="email"
-            placeholder="Your Email"
-            className="w-full p-2 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 text-gray-900 dark:text-gray-100"
-            required
-          />
-          <textarea
-            placeholder="Your Message"
-            className="w-full p-2 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 text-gray-900 dark:text-gray-100"
-            rows={4}
-            required
-          ></textarea>
-          <button type="submit" className="w-full bg-teal-500 text-white hover:bg-teal-600 py-2 rounded-lg font-semibold transition-colors duration-200">Send Message</button>
-        </form>
+
+        {/* Remove form and replace with email link */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+          <h3 className="text-xl font-semibold text-teal-500 mb-4">Send Me an Email</h3>
+          <p className="text-gray-600 dark:text-gray-300 mb-4">
+            If you'd like to reach out, feel free to email me directly.
+          </p>
+          <a 
+            href="mailto:kanikpathak1234@gmail.com"
+            className="w-full bg-teal-500 text-white hover:bg-teal-600 py-2 px-4 rounded-lg font-semibold transition-colors duration-200 inline-block text-center"
+          >
+            Send Email
+          </a>
+        </div>
       </div>
     </motion.section>
   )
